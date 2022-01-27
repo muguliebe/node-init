@@ -1,0 +1,20 @@
+{
+    "collectCoverage": true,
+    "coveragePathIgnorePatterns": [
+        "<rootDir>/src/models"
+    ],
+    "moduleFileExtensions": [
+        "js",
+        "mjs"
+    ],
+    "transform": {
+        "^.+\\.js$": "babel-jest",
+        "^.+\\.mjs$": "babel-jest"
+    },
+    "testRegex": "((\\.|/*.)(test))\\.js?$",
+    "modulePathIgnorePatterns": [
+        "<rootDir>/src/config",
+        "<rootDir>/tmp",
+        "<rootDir>/src/models/pg"
+    ]
+}

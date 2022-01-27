@@ -1,0 +1,30 @@
+{
+  "name": "init",
+  "description": "node boilerplate project",
+  "version": "1.0.0",
+  "author": "zany",
+  "license": "ISC",
+  "main": "src/start.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muguliebe/node-init.git"
+  },
+  "bugs": {
+    "url": "https://github.com/muguliebe/node-init/issues"
+  },
+  "homepage": "https://github.com/muguliebe/node-init#readme",
+  "scripts": {
+    "test": "NODE_ENV=test node --experimental-vm-modules node_modules/.bin/jest --runInBand --detectOpenHandles --forceExit --maxWorker=1",
+    "tw": "NODE_ENV=test node --experimental-vm-modules node_modules/.bin/jest --runInBand --detectOpenHandles --watch --forceExit --maxWorker=1",
+    "dev": "NODE_ENV=dev node -r esm .",
+    "dw": "nodemon",
+    "start": "node src/start.js"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  }
+}
