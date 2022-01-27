@@ -7,5 +7,5 @@ module.exports = {
     jsxSingleQuote: true,
     endOfLine: 'lf',
     arrowParens: 'avoid',
-    printWidth: 120,
+    printWidth: 240,
 }
